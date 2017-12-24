@@ -1,6 +1,7 @@
 /*
   Check nano for PIR compatibility
 */
+
 int PIR7pin = 7;
 int PIR11pin = 11;
 int dogatD7 = 0;
@@ -46,7 +47,7 @@ void playTone(long duration, int freq) {
         elapsed_time += (period);
     }
 
-// Serial.print("Off. onTime was ");
+//
    // Serial.println(onTime);
    // Serial.println(dogatD8);
    // onTime = 0;
